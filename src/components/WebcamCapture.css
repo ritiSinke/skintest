@@ -1,0 +1,66 @@
+/* Center everything */
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+    background-color: #FFD1DC; /* Light Pink */
+    color: black;
+    text-align: center;
+  }
+  
+  /* Webcam & Captured Image */
+  .webcam-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .webcam, .captured-image {
+    width: 640px;
+    height: 480px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+    border: 2px solid #FFB6C1;
+  }
+  
+  /* Buttons */
+  .button-container {
+    display: flex;
+    gap: 15px;
+  }
+  
+  .button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  /* Button Styles */
+  .capture-button {
+    background-color: #FFB6C1;
+    color: black;
+  }
+  
+  .retake-button {
+    background-color: #FF69B4;
+    color: white;
+  }
+  
+  .analyze-button {
+    background-color: #FF1493;
+    color: white;
+  }
+  
+  /* Hover Effects */
+  .button:hover {
+    opacity: 0.8;
+  }
+  
